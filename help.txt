@@ -1,0 +1,9 @@
+管理员用户与密码
+xlc
+xlc@strapi.com
+123456Xlc
+
+数据导出
+npm run strapi export -- --no-encrypt
+数据导入
+npm run strapi import -- -f export_20240406180828.tar.gz
